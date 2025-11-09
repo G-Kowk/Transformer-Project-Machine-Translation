@@ -1,0 +1,145 @@
+D:\Anaconda\envs\transformer_mt\python.exe "D:/a.Python/Foundations and Applications of Large Models/Transformer Project——Machine Translation/train_mt_2heads.py"
+[Info] Random seed set to: 42
+Device: cpu
+Tokenizer loaded. Vocab size: 32100 pad_id: 0
+Start training ...
+[Epoch 1] train_loss=5.9497  val_loss=5.4314  time=400.7s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 362, 177, 1050, 6, 67, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 362, 177, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 15, 7, 3, 15, 7]
+GENERATED text: ich denke, die es es es es es es es ich den es es es es es es
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 2] train_loss=5.1300  val_loss=5.0649  time=417.5s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 547, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3]
+GENERATED text: hat die hat, die hat, die hat, die hat, die hat, die hat, die hat, die hat, die hat, die hat, die hat, die 
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 3] train_loss=4.7957  val_loss=4.8787  time=436.1s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 547, 67, 3, 5802, 3, 1878, 3, 547, 6, 67, 3, 1878, 3, 1878, 3, 547, 6, 67, 3, 1878, 3, 547, 6, 67, 3, 547, 6, 67, 3, 547, 6, 67, 3, 1878, 3, 1878, 3, 1878, 3, 1878, 3, 547, 6, 67, 3, 547, 6]
+GENERATED text: hat die letzten dieser hat, die dieser dieser hat, die dieser hat, die hat, die hat, die dieser dieser dieser dieser hat, die hat,
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 4] train_loss=4.5704  val_loss=4.7653  time=428.3s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 547, 67, 3, 5802, 2522, 16, 74, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 547, 6, 67, 3, 547, 6, 67, 3, 5802, 2522, 3, 5802, 2522, 3, 547, 6, 67, 3, 5802, 2522, 16, 74, 3, 5802]
+GENERATED text: hat die letzten Jahr in der letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr hat, die hat, die letzten Jahr letzten Jahr hat, die letzten Jahr in der letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 5] train_loss=4.3993  val_loss=4.6860  time=423.8s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 547, 67, 3, 5802, 8795, 3093, 6, 67, 3, 5802, 2522, 12721, 14110, 813, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802]
+GENERATED text: hat die letzten paar Jahren, die letzten Jahr Millionen Dollar pro Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 6] train_loss=4.2615  val_loss=4.6354  time=426.0s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 547, 2352, 3861, 8908, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 16, 74, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802]
+GENERATED text: hat zwei Jahre später letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr in der letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 7] train_loss=4.1400  val_loss=4.5933  time=443.2s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 8914, 6362, 3, 547, 67, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 547, 67, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140]
+GENERATED text: Dieser Mann hat die letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren hat die letzten Jahrzehn Jahren letzten Jahrzehn
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 8] train_loss=4.0336  val_loss=4.5708  time=447.1s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 13392, 3, 362, 67, 4052, 17605, 219, 74, 3, 5802, 2522, 13140, 3093, 6, 67, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802]
+GENERATED text: Während ich die drei Monate auf der letzten Jahrzehn Jahren, die letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 9] train_loss=3.9377  val_loss=4.5419  time=441.4s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 15, 3, 5802, 2522, 13140, 3093, 3, 547, 67, 3, 5802, 2522, 13140, 3093, 6, 67, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802]
+GENERATED text: e letzten Jahrzehn Jahren hat die letzten Jahrzehn Jahren, die letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 10] train_loss=3.8549  val_loss=4.5206  time=441.7s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 8914, 6362, 193, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 25680, 35, 6, 67, 3, 5802, 2522, 13140, 25680, 35, 3, 5802, 2522, 13140, 25680, 35, 3, 5802, 2522, 13140, 25680, 35, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 25680, 35, 6, 67]
+GENERATED text: Dieser Mann von letzten Jahrzehn Jahren letzten Jahrzehntausenden, die letzten Jahrzehntausenden letzten Jahrzehntausenden letzten Jahrzehntausenden letzten Jahrzehn Jahren letzten Jahrzehntausenden, die
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 11] train_loss=3.7757  val_loss=4.5147  time=446.4s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 15, 3, 362, 6, 602, 67, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802]
+GENERATED text: e ich, dass die letzten Jahr in den letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahr in den letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 12] train_loss=3.7048  val_loss=4.5079  time=440.3s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 15, 3, 362, 67, 3, 5802, 2522, 6, 67, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140]
+GENERATED text: e ich die letzten Jahr, die letzten Jahr in den letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahr in den letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahr in den letzten Jahrzehn
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 13] train_loss=3.6339  val_loss=4.4977  time=439.8s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 15, 3, 362, 2352, 3861, 6, 67, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 16]
+GENERATED text: e ich zwei Jahre, die letzten Jahr in den letzten Jahrzehn Jahren letzten Jahr letzten Jahr letzten Jahr in den letzten Jahrzehn Jahren letzten Jahrzehn Jahren letzten Jahr letzten Jahr letzten Jahr in
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 14] train_loss=3.5726  val_loss=4.4925  time=441.1s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 16239, 745, 67, 3, 5802, 2522, 16, 177, 3, 5802, 8795, 3093, 6, 67, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 8795, 3093, 3, 5802, 2522, 3, 5802, 2522, 3, 547]
+GENERATED text: Heute haben die letzten Jahr in den letzten paar Jahren, die letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten paar Jahren letzten Jahr letzten Jahr hat
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 15] train_loss=3.5142  val_loss=4.4951  time=441.2s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 16239, 745, 67, 3, 5802, 2522, 3646, 604, 12721, 3093, 6, 67, 3, 5802, 2522, 13140, 25680, 15, 7, 2522, 3, 5802, 2522, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 3, 5802, 2522, 3, 5802]
+GENERATED text: Heute haben die letzten Jahr seit 30 Millionen Jahren, die letzten Jahrzehntausendes Jahr letzten Jahr letzten Jahr in den letzten Jahr letzten Jahr letzten Jahrzehn Jahren letzten Jahr letzten Jahr letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 16] train_loss=3.4585  val_loss=4.4923  time=439.9s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 16239, 20147, 3, 547, 67, 3, 5802, 2522, 204, 5311, 3861, 4445, 6, 67, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 13140, 3093, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 13140, 3093]
+GENERATED text: Heute Morgen hat die letzten Jahr 20.000 Jahre alt, die letzten Jahr in den letzten Jahrzehn Jahren letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahrzehn Jahren
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 17] train_loss=3.4070  val_loss=4.4911  time=441.9s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 362, 2010, 2352, 3861, 6, 67, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522]
+GENERATED text: ich habe zwei Jahre, die letzten Jahr in den letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 18] train_loss=3.3581  val_loss=4.4904  time=440.8s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 362, 177, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 6, 67, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 547, 6, 67, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 3]
+GENERATED text: ich den letzten Jahr letzten Jahr letzten Jahr, die letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr hat, die letzten Jahr in den letzten Jahr 
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 19] train_loss=3.3126  val_loss=4.4919  time=440.9s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 362, 177, 1050, 6, 602, 67, 3, 5802, 2522, 16, 177, 3, 5802, 2352, 3093, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802]
+GENERATED text: ich denke, dass die letzten Jahr in den letzten zwei Jahren letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 20] train_loss=3.2680  val_loss=4.4958  time=441.8s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 16239, 3, 362, 177, 3, 5802, 2352, 1005, 4052, 12721, 3861, 6, 67, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 547, 6, 67, 3, 5802, 2522]
+GENERATED text: Heute ich den letzten zwei bis drei Millionen Jahre, die letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr hat, die letzten Jahr
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 21] train_loss=3.2292  val_loss=4.4981  time=439.9s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 16239, 745, 67, 3, 5802, 2522, 266, 7, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 547, 67, 3, 5802, 2522, 266, 7, 2522, 16, 177, 3, 5802, 2522, 3, 5802, 2522, 25680, 3861, 12142, 210, 4446, 17, 15, 7, 3547]
+GENERATED text: Heute haben die letzten Jahr eines Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr hat die letzten Jahr eines Jahr in den letzten Jahr letzten Jahrtausend Jahre langwörtes 2,
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 22] train_loss=3.1893  val_loss=4.5025  time=438.8s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 16239, 745, 67, 3, 5802, 2522, 25680, 3861, 12142, 210, 4446, 10673, 15, 6, 67, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 547, 6, 67, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3]
+GENERATED text: Heute haben die letzten Jahrtausend Jahre langwörmige, die letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr hat, die letzten Jahr letzten Jahr letzten Jahr 
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+[Epoch 23] train_loss=3.1580  val_loss=4.5103  time=440.1s
+SRC text (token ids): [2506, 215, 27, 3217, 175, 192, 16044, 78, 24, 5970, 24, 8, 3, 4667, 1225, 3, 867, 2468, 6, 84, 21, 167, 13, 8, 336, 386, 770, 203, 65, 118, 8, 812, 13, 8, 1364, 4678, 2315, 6, 65, 6660, 52, 6513, 57, 1283, 1093, 5, 1, 0]
+REFERENCE (token ids): [28699, 7, 2522, 2010, 3, 362, 637, 5877, 29, 4452, 10487, 22985, 6, 561, 170, 548, 152, 8104, 2978, 6, 602, 67, 3, 6604, 10175, 16988, 1258, 6811, 6, 67, 218, 46, 27334, 52, 727, 4052, 12721, 3861, 67, 350, 9870, 7, 7, 15, 74, 1199, 35, 1]
+GENERATED ids: [0, 3, 16239, 745, 67, 3, 5802, 2522, 266, 7, 2522, 16, 177, 3, 5802, 2522, 16, 177, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3, 5802, 2522, 3]
+GENERATED text: Heute haben die letzten Jahr eines Jahr in den letzten Jahr in den letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr letzten Jahr 
+REFERENCE text: Letztes Jahr habe ich diese beiden Folien gezeigt, um zu veranschaulichen, dass die arktische Eiskappe, die für annähernd drei Millionen Jahre die Grösse der unteren
+Early stopping triggered at epoch 23. Best val_loss=4.4904
+Training finished. Best val loss: 4.490370546068464

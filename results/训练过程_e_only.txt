@@ -1,0 +1,38 @@
+D:\Anaconda\envs\transformer_mt\python.exe "D:/a.Python/Foundations and Applications of Large Models/Transformer Project——Machine Translation/train_mt_encoder_only.py"
+[Info] Random seed set to: 42
+Device: cpu
+Tokenizer loaded. Vocab size: 32100 pad_id: 0
+Start encoder-only training ...
+[Epoch 1] train_loss=3.9841  val_loss=1.4885  time=311.5s
+[Epoch 2] train_loss=0.8626  val_loss=0.4513  time=332.5s
+[Epoch 3] train_loss=0.2804  val_loss=0.2194  time=333.1s
+[Epoch 4] train_loss=0.1194  val_loss=0.1508  time=333.1s
+[Epoch 5] train_loss=0.0590  val_loss=0.1219  time=333.4s
+[Epoch 6] train_loss=0.0309  val_loss=0.1049  time=323.7s
+[Epoch 7] train_loss=0.0173  val_loss=0.0946  time=324.0s
+[Epoch 8] train_loss=0.0088  val_loss=0.0948  time=324.9s
+[Epoch 9] train_loss=0.0044  val_loss=0.0978  time=323.5s
+[Epoch 10] train_loss=0.0029  val_loss=0.0994  time=323.5s
+[Epoch 11] train_loss=0.0021  val_loss=0.1000  time=326.6s
+[Epoch 12] train_loss=0.0021  val_loss=0.1026  time=324.7s
+[Epoch 13] train_loss=0.0016  val_loss=0.1035  time=323.1s
+[Epoch 14] train_loss=0.0012  val_loss=0.1062  time=324.6s
+[Epoch 15] train_loss=0.0015  val_loss=0.1056  time=324.0s
+[Epoch 16] train_loss=0.0011  val_loss=0.1068  time=334.2s
+[Epoch 17] train_loss=0.0012  val_loss=0.1090  time=331.8s
+[Epoch 18] train_loss=0.0010  val_loss=0.1080  time=323.5s
+[Epoch 19] train_loss=0.0011  val_loss=0.1095  time=324.2s
+[Epoch 20] train_loss=0.0014  val_loss=0.1077  time=324.2s
+[Epoch 21] train_loss=0.0012  val_loss=0.1095  time=324.1s
+[Epoch 22] train_loss=0.0011  val_loss=0.1108  time=323.9s
+[Epoch 23] train_loss=0.0010  val_loss=0.1108  time=323.3s
+[Epoch 24] train_loss=0.0007  val_loss=0.1105  time=322.8s
+[Epoch 25] train_loss=0.0009  val_loss=0.1096  time=324.8s
+[Epoch 26] train_loss=0.0010  val_loss=0.1104  time=324.1s
+[Epoch 27] train_loss=0.0010  val_loss=0.1103  time=323.9s
+[Epoch 28] train_loss=0.0008  val_loss=0.1104  time=328.0s
+[Epoch 29] train_loss=0.0009  val_loss=0.1106  time=340.7s
+[Epoch 30] train_loss=0.0009  val_loss=0.1107  time=341.5s
+Training finished. Best val loss: 0.09463148884866054
+
+进程已结束,退出代码0

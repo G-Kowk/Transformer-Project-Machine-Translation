@@ -1,0 +1,169 @@
+D:\Anaconda\envs\transformer_mt\python.exe "D:/a.Python/Foundations and Applications of Large Models/Transformer Project——Machine Translation/train_mt_alldata.py"
+[Info] Random seed set to: 42
+Device: cpu
+Tokenizer loaded. Vocab size: 32100 pad_id: 0
+Loading full IWSLT2017 EN-DE dataset...
+Total samples: 206112  Train: 164889  Val: 41223
+Start training ...
+[Epoch 1] train_loss=4.5395  val_loss=3.9428  time=8617.8s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 558, 9594, 311, 6, 587, 637, 7, 3, 15, 7, 3, 1878, 3, 1878, 558, 9594, 5, 1]
+GENERATED text: wir wissen nicht, wie dieses es dieser dieser wir wissen.
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 2] train_loss=3.8183  val_loss=3.6073  time=8781.3s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 6, 587, 637, 7, 1382, 311, 790, 211, 1382, 229, 535, 1]
+GENERATED text: wissen wir, wie dieses hier nicht nur das hier ist."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 3] train_loss=3.5346  val_loss=3.3921  time=8952.0s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 6, 602, 211, 311, 790, 211, 229, 535, 1]
+GENERATED text: wissen wir, dass das nicht nur das ist."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 4] train_loss=3.3482  val_loss=3.2611  time=9102.3s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 7, 6, 587, 558, 211, 311, 9594, 535, 1]
+GENERATED text: s, wie wir das nicht wissen."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 5] train_loss=3.2116  val_loss=3.1671  time=9118.0s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 3, 8914, 1382, 229, 3, 15, 7, 311, 790, 587, 211, 535, 1]
+GENERATED text: Dieser hier ist es nicht nur wie das."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 6] train_loss=3.1033  val_loss=3.0802  time=9153.8s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 5, 1185, 9594, 311, 6, 587, 211, 229, 535, 1]
+GENERATED text: . Wir wissen nicht, wie das ist."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 7] train_loss=3.0111  val_loss=3.0156  time=9162.5s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 229, 2080, 311, 5, 1185, 9594, 6, 587, 3, 15, 7, 211, 1382, 229, 535, 1]
+GENERATED text: das ist einfach nicht. Wir wissen, wie es das hier ist."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 8] train_loss=2.9354  val_loss=2.9595  time=9181.1s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 229, 311, 790, 211, 5, 1185, 9594, 6, 587, 388, 3, 15, 7, 2587, 3, 547, 535, 1]
+GENERATED text: das ist nicht nur das. Wir wissen, wie man es Ihnen hat."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 9] train_loss=2.8675  val_loss=2.9072  time=9750.2s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 3, 15, 7, 5, 1185, 9594, 311, 6, 587, 211, 229, 6, 561, 211, 311, 790, 211, 170, 11085, 535, 1]
+GENERATED text: es. Wir wissen nicht, wie das ist, um das nicht nur das zu zeigen."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 10] train_loss=2.8061  val_loss=2.8679  time=9477.9s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 211, 229, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie das ist."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 11] train_loss=2.7507  val_loss=2.8299  time=9156.8s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 5, 1185, 9594, 311, 6, 587, 211, 229, 6, 1]
+GENERATED text: . Wir wissen nicht, wie das ist,
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 12] train_loss=2.6984  val_loss=2.7996  time=9292.8s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 211, 1382, 229, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie das hier ist."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 13] train_loss=2.6503  val_loss=2.7635  time=9351.3s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 388, 211, 11085, 675, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie man das zeigen kann."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 14] train_loss=2.6053  val_loss=2.7383  time=9314.0s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 388, 211, 229, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie man das ist."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 15] train_loss=2.5616  val_loss=2.7093  time=9319.8s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 5, 1185, 9594, 311, 6, 587, 211, 1382, 3, 15, 7, 3, 15, 7, 2587, 3, 547, 535, 1]
+GENERATED text: wissen wir. Wir wissen nicht, wie das hier es es Ihnen hat."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 16] train_loss=2.5217  val_loss=2.6867  time=9322.8s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 558, 211, 1382, 3, 15522, 35, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie wir das hier zeigen."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 17] train_loss=2.4837  val_loss=2.6664  time=9384.6s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 388, 211, 1382, 3, 547, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie man das hier hat."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 18] train_loss=2.4464  val_loss=2.6546  time=8879.5s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 558, 211, 11085, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie wir das zeigen."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 19] train_loss=2.4122  val_loss=2.6258  time=8798.4s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 388, 211, 3, 547, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie man das hat."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 20] train_loss=2.3791  val_loss=2.6178  time=8992.7s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 5, 1185, 9594, 311, 6, 587, 388, 211, 11085, 675, 535, 1]
+GENERATED text: . Wir wissen nicht, wie man das zeigen kann."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 21] train_loss=2.3505  val_loss=2.6010  time=8902.8s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 311, 6, 587, 388, 211, 3, 15, 7, 3, 547, 535, 1]
+GENERATED text: wissen wir nicht, wie man das es hat."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 22] train_loss=2.3224  val_loss=2.5850  time=9560.1s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 311, 6, 587, 388, 211, 11085, 675, 535, 1]
+GENERATED text: wissen wir nicht, wie man das zeigen kann."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 23] train_loss=2.2967  val_loss=2.5808  time=8993.2s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 311, 6, 587, 388, 211, 3, 15, 7, 3, 547, 535, 1]
+GENERATED text: wissen wir nicht, wie man das es hat."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 24] train_loss=2.2748  val_loss=2.5689  time=8990.0s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 211, 5, 1185, 9594, 311, 6, 587, 388, 211, 11085, 675, 535, 1]
+GENERATED text: das. Wir wissen nicht, wie man das zeigen kann."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 25] train_loss=2.2555  val_loss=2.5609  time=9054.6s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 311, 6, 587, 388, 211, 11085, 675, 535, 1]
+GENERATED text: wissen wir nicht, wie man das zeigen kann."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 26] train_loss=2.2389  val_loss=2.5552  time=9042.6s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 211, 5, 1185, 9594, 311, 6, 587, 388, 211, 11085, 675, 535, 1]
+GENERATED text: wissen wir das. Wir wissen nicht, wie man das zeigen kann."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
+[Epoch 27] train_loss=2.2255  val_loss=2.5509  time=10398.4s
+SRC text (token ids): [101, 214, 48, 5, 101, 131, 278, 31, 17, 214, 149, 12, 504, 48, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+REFERENCE (token ids): [1185, 9594, 790, 311, 6, 587, 558, 211, 11085, 730, 535, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+GENERATED ids: [0, 9594, 558, 211, 5, 1185, 9594, 311, 6, 587, 388, 211, 11085, 675, 535, 1]
+GENERATED text: wissen wir das. Wir wissen nicht, wie man das zeigen kann."
+REFERENCE text: Wir wissen nur nicht, wie wir das zeigen können."
